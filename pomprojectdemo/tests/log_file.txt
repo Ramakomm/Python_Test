@@ -1,0 +1,14 @@
+def is_palin(ost):
+j = -1
+for i in range(len(ost/2)):
+     if (ost[i]==ost[j]):
+        j = j -1
+        continue
+     else:
+        return False
+      return true
+if is_palin(nitin):
+    print("palindroe")
+else:
+    print("nit palin")
+

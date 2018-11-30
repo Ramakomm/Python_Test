@@ -1,0 +1,29 @@
+E
+======================================================================
+ERROR: test_login_valid (__main__.Login_FB)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Akshara\PycharmProjects\untitled\venv\lib\site-packages\selenium\webdriver\common\service.py", line 76, in start
+    stdin=PIPE)
+  File "C:\Users\Akshara\AppData\Local\Programs\Python\Python36-32\Lib\subprocess.py", line 707, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\Akshara\AppData\Local\Programs\Python\Python36-32\Lib\subprocess.py", line 992, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/Akshara/PycharmProjects/sampleSELPython/pomprojectdemo/tests/FB_Loginnow.py", line 27, in test_login_valid
+    driver = webdriver.Chrome(chrome_options=chrome_options)
+  File "C:\Users\Akshara\PycharmProjects\untitled\venv\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 68, in __init__
+    self.service.start()
+  File "C:\Users\Akshara\PycharmProjects\untitled\venv\lib\site-packages\selenium\webdriver\common\service.py", line 83, in start
+    os.path.basename(self.path), self.start_error_message)
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+
+
+----------------------------------------------------------------------
+Ran 1 test in 10.107s
+
+FAILED (errors=1)

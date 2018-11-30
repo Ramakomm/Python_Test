@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../APITestting/.idea/APITestting.iml" filepath="$PROJECT_DIR$/../APITestting/.idea/APITestting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/PycharmProjects.iml" filepath="$PROJECT_DIR$/../.idea/PycharmProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gjkdlf/.idea/gjkdlf.iml" filepath="$PROJECT_DIR$/../gjkdlf/.idea/gjkdlf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../learningPy/.idea/learningPy.iml" filepath="$PROJECT_DIR$/../learningPy/.idea/learningPy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sampleSELPython.iml" filepath="$PROJECT_DIR$/.idea/sampleSELPython.iml" />
+    </modules>
+  </component>
+</project>
